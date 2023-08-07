@@ -1,0 +1,21 @@
+{
+  "name": "donguiapp",
+  "version": "1.0.0",
+  "description": "Dongui app by henrique",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "electron ./dist/main.js"
+  },
+  "author": "Henrique Chamon",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.4.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "electron": "^25.4.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
